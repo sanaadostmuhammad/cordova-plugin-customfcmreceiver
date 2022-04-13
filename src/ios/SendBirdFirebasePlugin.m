@@ -1,15 +1,15 @@
-/********* SendbirdFCMReceiver.m Cordova Plugin Implementation *******/
+/********* SendBirdFirebasePlugin.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 
-@interface SendbirdFCMReceiver : CDVPlugin {
+@interface SendBirdFirebasePlugin : CDVPlugin {
   // Member variables go here.
 }
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation SendbirdFCMReceiver
+@implementation SendBirdFirebasePlugin
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command
 {
