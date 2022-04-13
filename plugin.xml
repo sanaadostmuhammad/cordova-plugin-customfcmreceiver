@@ -1,14 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-sendbirdfcmreceiver" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-sendbirdfcmreceiver" 
+        version="0.0.1" 
+        xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
     <name>SendBirdFirebasePlugin</name>
+    <description>Cordova plugin for Sendbird background/foregound custom messages</description>
+    <license>MIT</license>
+
     <js-module name="SendBirdFirebasePlugin" src="www/SendBirdFirebasePlugin.js">
-    <clobbers target="cordova.plugins.SendBirdFirebasePlugin" />
+        <clobbers target="cordova.plugins.SendBirdFirebasePlugin" />
     </js-module>
     
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="SendBirdFirebasePlugin">
                 <param name="android-package" value="cordova-plugin-sendbirdfcmreceiver.SendBirdFirebasePlugin" />
+                <!-- <param name="onload" value="true" /> -->
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
@@ -19,6 +27,7 @@
         <config-file parent="/*" target="config.xml">
         <feature name="SendBirdFirebasePlugin">
             <param name="ios-package" value="SendBirdFirebasePlugin" />
+            <!-- <param name="onload" value="true" /> -->
         </feature>
         </config-file>
         <source-file src="src/ios/SendBirdFirebasePlugin.m" />
