@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-sendbirdfcmreceiver",
+  "version": "0.0.1",
+  "description": "Cordova plugin for custom message receiver",
+  "cordova": {
+    "id": "cordova-plugin-sendbirdfcmreceiver",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanaadostmuhammad/cordova-plugin-sendbirdfcmreceiver.git"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Sanaa Muhammad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanaadostmuhammad/cordova-plugin-sendbirdfcmreceiver/issues"
+  },
+  "homepage": "https://github.com/sanaadostmuhammad/cordova-plugin-sendbirdfcmreceiver#readme"
+}
